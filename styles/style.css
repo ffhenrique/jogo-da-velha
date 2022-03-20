@@ -1,0 +1,116 @@
+* {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #18181B;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+}
+
+.container {
+    max-width: 100%;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+
+
+.o {
+    position: relative;
+}
+
+.o::after {
+    position: absolute;
+    content: "🛡️";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x::after {
+    position: absolute;
+    content: "⚔️";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+ .start {
+    margin-top: 15px;
+    max-width: 150px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #18181B;
+    background-image: linear-gradient(#30C5EE, #30C5EE);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    background-position-x: right;
+    border: 1px solid gray;
+    color: #FFF;
+    cursor: pointer;
+
+    transition: background-size 400ms;
+ }
+
+.start:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+
+ @media screen and (max-width: 315px) {
+
+
+    .square {
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+ }
+
+
+ @media screen and (max-width: 500px) {
+     .start {
+        background-color: #30C5EE;
+     }
+ }
+
+
+
+
+
+
+
