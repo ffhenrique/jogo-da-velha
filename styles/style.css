@@ -26,7 +26,7 @@ h1 {
 }
 
 .square {
-    width: 2000px;
+    width: 200px;
     height: 200px;
     background-color: beige;
     border: 1px solid gray;
@@ -69,7 +69,7 @@ h1 {
  .start {
     margin-top: 15px;
     max-width: 150px;
-    height: 45px;
+    height: 60px;
     border-radius: 4px;
     background-color: #18181B;
     background-image: linear-gradient(#30C5EE, #30C5EE);
