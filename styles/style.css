@@ -26,8 +26,8 @@ h1 {
 }
 
 .square {
-    width: 180px;
-    height: 180px;
+    width: 130px;
+    height: 130px;
     background-color: beige;
     border: 1px solid gray;
     display: inline-block;
